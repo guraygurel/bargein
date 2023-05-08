@@ -1,0 +1,23 @@
+{
+  "name": "bargein",
+  "version": "1.0.0",
+  "description": "This package provides security bypasses for testing purposes. Not to be used to connect to real sites. Intended only for design environments.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "test",
+    "bypass"
+  ],
+  "author": "Guray Gurel",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.0.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  }
+}
