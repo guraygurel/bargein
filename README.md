@@ -4,6 +4,8 @@ In a design environment, there are times when we want to bypass https certificat
 
 ![Firefox Warning](../assets/firefoxWarning.png?raw=true)
 
+![Firefox Failure](../assets/firefoxFailure.png?raw=true)
+
 BargeIn is designed to `ignore-certificate-errors` and `allow-insecure-localhost`. It accepts a `config.json` file that includes definitions for a homepage. The path of the config file is determined by `electron-store` and is shown in the startup page as shown below:
 ><h2>Use it at your own risk</h2>
 >    <p>This electronjs package provides security bypasses for testing purposes. Not to be used to connect to real sites. Intended for design environments only.</p>
