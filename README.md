@@ -2,6 +2,8 @@ BargeIn is an electronJS based application that provides security bypasses for t
 
 In a design environment, there are times when we want to bypass https certificate warnings or errors like self-signed certificates, expired certificates, reused certificates, etc. Modern browsers either block access or they require several "proceed" buttons to be pressed before they let you in to the page. This becomes an issue especially if you are testing several systems with such certificates.
 
+![Firefox Warning](../assets/firefoxWarning.png?raw=true)
+
 BargeIn is designed to `ignore-certificate-errors` and `allow-insecure-localhost`. It accepts a `config.json` file that includes definitions for a homepage. The path of the config file is determined by `electron-store` and is shown in the startup page as shown below:
 ><h2>Use it at your own risk</h2>
 >    <p>This electronjs package provides security bypasses for testing purposes. Not to be used to connect to real sites. Intended for design environments only.</p>
